@@ -16,18 +16,18 @@ int main(int argc, char **argv)
 	string D ;
 	
 	// Creating variables to store classes to avoid having to retype them
-	string C1 = "Calculus 1 - 210" ;
-	string C2 = "C++ - 162" ;
-	string C3 = "Composition 1 - 105" ;
-	string C4 = "Composition 1 Lab - 067" ;
-	string C5 = "Intro to Psychology - 111" ;
-	string C6 = "The College Experience - 108" ;
+	const string C1 = "Calculus 1 - 210" ;
+	const string C2 = "C++ - 162" ;
+	const string C3 = "Composition 1 - 105" ;
+	const string C4 = "Composition 1 Lab - 067" ;
+	const string C5 = "Intro to Psychology - 111" ;
+	const string C6 = "The College Experience - 108" ;
 	
 	// Creating variables to store the times of classes to avoid having to retype them
-	string T1 = "8:00" ;
-	string T2 = "10:00" ;
-	string T3 = "12:00" ;
-	string T4 = "2:00" ;
+	const string T1 = "8:00" ;
+	const string T2 = "10:00" ;
+	const string T3 = "12:00" ;
+	const string T4 = "2:00" ;
 	
 	// Changing the variable to the correct day of the week
 	D = "Monday\t" ;
@@ -67,8 +67,8 @@ int main(int argc, char **argv)
 	cout << D + "\t" + T3 + "\t" + C5 << endl ;
 	
 	// Creating variables to store string of characters to avoid having to type over and over
-	string CheckerBoard1 = "\n    *        *        *        *    \n" ;
-	string CheckerBoard2 = "\n*       *        *        *         \n" ;
+	const string CheckerBoard1 = "\n    *        *        *        *    \n" ;
+	const string CheckerBoard2 = "\n*       *        *        *         \n" ;
 	
 	
 	// Displaying stars in a checkered pattern
