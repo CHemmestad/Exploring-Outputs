@@ -3,7 +3,7 @@ Caleb Hemmestad
 C++ 2021
 Due: Sep 15 by 11:59pm
 Lab number 2 Exploring Output
-Print out class schedule  for the week and a 4 by 4 star grid
+Print out class schedule for the week and a 4 by 4 star grid
  */
 
 #include <iostream>
@@ -13,10 +13,10 @@ using namespace std ;
 int main(int argc, char **argv)
 {
 	// Creating a variable to store the day of the week
-	string D ;
+	string D ; // D = Day
 	
 	// Creating variables to store classes to avoid having to retype them
-	const string C1 = "Calculus 1 - 210" ;
+	const string C1 = "Calculus 1 - 210" ; // C = Classroom
 	const string C2 = "C++ - 162" ;
 	const string C3 = "Composition 1 - 105" ;
 	const string C4 = "Composition 1 Lab - 067" ;
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	const string C6 = "The College Experience - 108" ;
 	
 	// Creating variables to store the times of classes to avoid having to retype them
-	const string T1 = "8:00" ;
+	const string T1 = "8:00" ; // T = Time
 	const string T2 = "10:00" ;
 	const string T3 = "12:00" ;
 	const string T4 = "2:00" ;
